@@ -1,2 +1,2 @@
-# Jules-Rimeyt_Trophy
+# Jules-Rimeyt-Trophy
 Jules Rimet Trophy
