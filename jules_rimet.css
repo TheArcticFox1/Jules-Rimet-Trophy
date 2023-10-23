@@ -1,0 +1,111 @@
+* {
+margin:10;
+padding: 10px;
+box-sizing: border-box;
+}
+
+body { 
+background-color: yellow;
+}
+
+.container {
+padding: 40px;
+}
+
+p { 
+text-align: justify;
+font-size: 1rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-style: bold;
+line-height: 1.5rem;
+}
+
+h1 { 
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 10px 0 20px;
+color: red;
+font-size: xx-large;
+font-style: italic;
+font-style: bold;
+}
+
+h2 {
+text-align: center;
+color: blue;
+font-size: large;
+font-style: italic;
+font-weight: 400;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: bold;
+}
+
+.image-container {
+display: grid;
+grid-template-columns: auto auto auto auto;
+justify-content: space-between;
+margin: 25px;
+}
+
+.img-group img {
+    width: 250px;
+    height: 350px;
+}
+
+.img-group-2 img {
+    width: 250px;
+    height: 300px;
+}
+
+.image-narration {
+text-align: center;
+align-items: center;
+color: red;
+font-style: italic;
+font-style: bold;
+font-size: 26px;
+font-weight: 600;
+}
+
+.text-float-right {
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+
+.text-float-left {
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+/* Footer section */
+
+footer {
+clear: both;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 40px;
+background: white;
+color: red;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+text-align: center;
+font-style: bold;
+}
+
+footer p {
+    font-size: 2rem;
+}
+
+footer a {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+}
+
+.svg {
+    width: 100%;
+    height: 100%;
+    fill: blue;
+}
